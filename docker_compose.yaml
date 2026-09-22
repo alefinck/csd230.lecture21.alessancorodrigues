@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: itstudies12345
+      MYSQL_DATABASE: csd230
+    ports:
+      - "3307:3306"
